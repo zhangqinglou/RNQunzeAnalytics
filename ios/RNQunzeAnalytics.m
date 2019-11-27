@@ -2,7 +2,6 @@
 #import "RNQunzeAnalytics.h"
 #import <UMCommon/UMCommon.h>
 #import <UMAnalytics/MobClick.h>
-#import "RNUMConfigure.h"
 
 @implementation RNQunzeAnalytics
 
