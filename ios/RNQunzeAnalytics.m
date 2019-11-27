@@ -2,6 +2,7 @@
 #import "RNQunzeAnalytics.h"
 #import <UMCommon/UMCommon.h>
 #import <UMAnalytics/MobClick.h>
+#import "RNQunzeConfigure.h"
 
 @implementation RNQunzeAnalytics
 
@@ -20,7 +21,7 @@ RCT_EXPORT_METHOD(setAppkeyAndChannelId:(NSString *)key channelId:(NSString *)ch
   NSLog(@"%@", [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding]);
   
   
-  [RNUMConfigure initWithAppkey:key channel:channelId];
+  [RNQunzeConfigure initWithAppkey:key channel:channelId];
 }
 
 RCT_EXPORT_METHOD(onPageStart:(NSString *)pageName){
