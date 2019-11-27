@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNQunzeAnalytics"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "RNQunzeAnalytics"
   s.description  = "qunze analytics"
   s.homepage     = "https://github.com/zhangqinglou/RNQunzeAnalytics"
